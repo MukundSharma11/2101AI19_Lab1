@@ -8,6 +8,11 @@ int subtract(int a, int b)
 {
     return a - b;
 }
+int multiply(int a, int b)
+{
+    return a * b;
+}
+
 
 int main()
 {
@@ -31,6 +36,12 @@ int main()
         int num3, num4;
         scanf("%d %d", &num3, &num4);
         printf("The difference of %d and %d is %d\n", num3, num4, subtract(num3, num4));
+        break;
+    case 3:
+        printf("Please enter two numbers to multiply:\n");
+        int num5, num6;
+        scanf("%d %d", &num5, &num6);
+        printf("The product of %d and %d is %d\n", num5, num6, multiply(num5, num6));
         break;
     }
     return 0;
