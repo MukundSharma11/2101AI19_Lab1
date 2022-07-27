@@ -53,6 +53,9 @@ int main()
         scanf("%d %d", &num7, &num8);
         printf("The quotient of %d and %d is %d\n", num7, num8, divide(num7, num8));
         break;
+     default:
+        printf("Invalid choice. Exiting...\n");
+        break;
     }
     return 0;
 }
